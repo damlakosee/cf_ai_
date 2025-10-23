@@ -1,14 +1,6 @@
-# cf_ai_chat_assistant
+# cf_ai_
 
 <div align="center">
-
-![Cloudflare Workers](https://img.shields.io/badge/Cloudflare-Workers-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![AI Powered](https://img.shields.io/badge/AI-Powered-blue?style=for-the-badge&logo=openai&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-
-**An advanced AI-powered chat application built on Cloudflare's edge infrastructure**
-
-[Features](#-features) • [Demo](#-live-demo) • [Installation](#-getting-started) • [Usage](#-usage-guide) • [Architecture](#-architecture)
 
 </div>
 
@@ -44,6 +36,8 @@
 ## 🎥 Demo
 
 ### Screenshots
+<img width="1439" height="817" alt="Ekran Resmi 2025-10-24 00 08 44" src="https://github.com/user-attachments/assets/c06e6997-8d51-4b5f-b08c-93009860b5a5" />
+
 
 **Chat Interface**
 ```
@@ -62,7 +56,7 @@
 
 ### Live Demo
 
-🔗 **Deployed Application**: `https://cf-ai-chat-assistant.your-subdomain.workers.dev`
+🔗 **Deployed Application**: `https://cf-ai-.your-subdomain.workers.dev`
 
 > ⚠️ **Note**: Replace with your actual deployment URL after running `wrangler deploy`
 
@@ -160,8 +154,8 @@ Before you begin, ensure you have:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/cf_ai_chat_assistant.git
-cd cf_ai_chat_assistant
+git clone https://github.com/damlakosee/cf_ai_.git
+cd cf_ai_
 
 # 2. Install dependencies
 npm install
@@ -184,8 +178,8 @@ That's it! Your app is now live on Cloudflare's edge network. 🎉
 
 ```bash
 # Clone and enter directory
-git clone https://github.com/yourusername/cf_ai_chat_assistant.git
-cd cf_ai_chat_assistant
+git clone https://github.com/damlakosee/cf_ai_.git
+cd cf_ai_
 
 # Install all dependencies
 npm install
@@ -419,7 +413,7 @@ See [TESTING.md](./TESTING.md) for comprehensive testing guide.
 ## 📁 Project Structure
 
 ```
-cf_ai_chat_assistant/
+cf_ai_/
 ├── src/
 │   └── index.ts              # Main Worker code (1,802 lines)
 │       ├── Durable Objects   # ChatHistory, ChatSessions
@@ -438,9 +432,6 @@ cf_ai_chat_assistant/
 ├── vitest.config.ts          # Test configuration
 │
 ├── README.md                 # This file
-├── PROMPTS.md                # AI development prompts
-├── DEPLOYMENT.md             # Deployment guide
-└── TESTING.md                # Testing guide
 ```
 
 ---
@@ -621,27 +612,6 @@ jobs:
 
 ---
 
-## 💰 Cost Estimate
-
-### Free Tier Includes
-
-- ✅ 100,000 Worker requests/day
-- ✅ 10,000 AI neurons/day (Workers AI)
-- ✅ 1GB Durable Objects storage
-- ✅ Unlimited bandwidth
-
-### Paid Tier (if needed)
-
-| Resource | Cost |
-|----------|------|
-| Additional Workers requests | $0.50 per million |
-| Additional AI neurons | $0.01 per 1,000 |
-| Additional DO storage | $0.20 per GB/month |
-
-**Estimated monthly cost for moderate usage:** $5-15
-
----
-
 ## 🛣️ Roadmap
 
 ### Planned Features
@@ -695,7 +665,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ```
 MIT License
 
-Copyright (c) 2024 cf_ai_chat_assistant
+Copyright (c) 2024 cf_ai_
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -714,7 +684,6 @@ furnished to do so, subject to the following conditions:
 - **Cloudflare** for Workers AI and edge infrastructure
 - **Meta** for Llama 3.3 model
 - **HuggingFace** for Llava vision model
-- **Community contributors** for feedback and improvements
 
 ---
 
@@ -725,30 +694,13 @@ furnished to do so, subject to the following conditions:
 - 📚 [Documentation](./DEPLOYMENT.md)
 - 🧪 [Testing Guide](./TESTING.md)
 - 🔧 [Troubleshooting](./ENV_ERROR_FIX.md)
-- 💬 [GitHub Issues](https://github.com/yourusername/cf_ai_chat_assistant/issues)
+- 💬 [GitHub Issues](https://github.com/damlakose/cf_ai_/issues)
 - 🌐 [Cloudflare Community](https://community.cloudflare.com)
 
 ### Contact
 
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Email**: your.email@example.com
-- **Discord**: [Join our community](https://discord.gg/yourdiscord)
+- **GitHub**: [@damlakosee](https://github.com/damlakosee)
+- **Email**: damlakosee147@gmail.com
 
----
-
-## 📈 Stats
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/cf_ai_chat_assistant?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/cf_ai_chat_assistant?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/cf_ai_chat_assistant)
-![GitHub license](https://img.shields.io/github/license/yourusername/cf_ai_chat_assistant)
-
----
-
-<div align="center">
-
-**Built with ❤️ using Cloudflare Workers AI**
-
-[⬆ Back to Top](#cf_ai_chat_assistant)
 
 </div>
