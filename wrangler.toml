@@ -1,0 +1,49 @@
+name = "ai-chatbot-fullstack"
+main = "src/index.ts"
+compatibility_date = "2024-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+# AI Binding - for Llama 3.3 and Vision models
+[ai]
+binding = "AI"
+
+# Durable Objects - for persistent memory/state
+[[durable_objects.bindings]]
+name = "CHAT_HISTORY"
+class_name = "ChatHistory"
+script_name = "ai-chatbot-fullstack"
+
+[[durable_objects.bindings]]
+name = "CHAT_SESSIONS"
+class_name = "ChatSessions"
+script_name = "ai-chatbot-fullstack"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["ChatHistory"]
+
+[[migrations]]
+tag = "v2"
+new_classes = ["ChatSessions"]
+
+# KV for additional storage
+# [[kv_namespaces]]
+# binding = "CHAT_KV"
+# id = "your-kv-namespace-id"
+
+# R2 for file storage
+# [[r2_buckets]]
+# binding = "CHAT_FILES"
+# bucket_name = "chat-uploads"
+
+# Environment variables (optional)
+[vars]
+# Add any environment variables here
+
+# Development configuration
+[env.development]
+name = "ai-chatbot-fullstack-dev"
+
+# Production configuration
+[env.production]
+name = "ai-chatbot-fullstack-prod"
