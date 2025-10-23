@@ -609,6 +609,26 @@ jobs:
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
 ```
+---
+
+## 💰 Cost Estimate
+
+### Free Tier Includes
+
+- ✅ 100,000 Worker requests/day
+- ✅ 10,000 AI neurons/day (Workers AI)
+- ✅ 1GB Durable Objects storage
+- ✅ Unlimited bandwidth
+
+### Paid Tier (if needed)
+
+| Resource | Cost |
+|----------|------|
+| Additional Workers requests | $0.50 per million |
+| Additional AI neurons | $0.01 per 1,000 |
+| Additional DO storage | $0.20 per GB/month |
+
+**Estimated monthly cost for moderate usage:** $5-15
 
 ---
 
